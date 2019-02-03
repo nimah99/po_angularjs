@@ -5,8 +5,6 @@
         <tr>
           <th>ID</th>
           <th>Customer</th>
-          <th>Assign to</th>
-          <th>Active</th>
           <th>Date Time</th>
           <th>Timer</th>
         </tr>
@@ -15,19 +13,6 @@
         <tr ng-repeat="p in order_pickup">
           <td>{{p.id}}</td>
           <td>{{p.customer}}</td>
-          <td><div class="form-group">
-            <select class="form-control" id="kurir">
-              <option value="">Pilih Kurir</option>
-              <option value="kurir1">Kurir 1</option>
-              <option value="kurir2">Kurir 2</option>
-              <option value="kurir3">Kurir 3</option>
-              <option value="kurir4">Kurir 4</option>
-              <option value="kurir5">Kurir 5</option>
-            </select>
-          </div></td>
-          <td><div class="form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1" checked disabled>
-          </div></td>
           <td>{{p.waktu}}</td>
           <td><span ng-class="{'badge badge-success': Timer[$index].RemainingTime != '00:00:00', 'badge badge-danger': Timer[$index].RemainingTime == '00:00:00'}">{{Timer[$index].RemainingTime=='00:00:00' ? 'Danger' : Timer[$index].RemainingTime}}</span></td>
         </tr>
