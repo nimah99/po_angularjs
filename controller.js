@@ -11,7 +11,6 @@ angular.module('controller',[])
             var min = Math.floor(count % 3600 / 60);
             var sec = Math.floor(count % 3600 % 60);
             var secondsToStr = '' + ('00' + hour).substr(-2) + ':' + ('00' + min).substr(-2) + ':' + ('00' + sec).substr(-2);     
-            //if(count<6000)
             return {RemainingTime: secondsToStr};
         }
         
