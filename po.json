@@ -1,6 +1,6 @@
 [
-        {"id":"LP00001","customer":"mawar","status":"1","waktu":"2019-02-04 18:19:38"},
-        {"id":"LP00002","customer":"melati","status":"1","waktu":"2019-02-04 02:19:59"},
-        {"id":"LP00003","customer":"maya","status":"1","waktu":"2019-02-04 02:49:27"},
-        {"id":"LP00004","customer":"mela","status":"1","waktu":"2019-02-04 02:33:19"}
+        {"id":"LP00001","customer":"mawar","status":"1","waktu":"2019-02-06 13:09:38"},
+        {"id":"LP00002","customer":"melati","status":"1","waktu":"2019-02-06 12:35:59"},
+        {"id":"LP00003","customer":"maya","status":"1","waktu":"2019-02-06 12:49:27"},
+        {"id":"LP00004","customer":"mela","status":"1","waktu":"2019-02-06 11:33:19"}
     ]
