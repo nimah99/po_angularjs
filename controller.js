@@ -41,7 +41,7 @@ angular.module('controller',[])
         for(var i=0;i<$scope.op.length;i++){
            var timer={
             RemainingTime: "",
-            InitTime: new Date($scope.op[i].datetime),
+            InitTime: new Date($scope.op[i].waktu),
             Seconds: counts
         }
         timers.push(timer);
