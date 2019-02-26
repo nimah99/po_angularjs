@@ -13,7 +13,7 @@ angular.module('controller',[])
               var diff = cDate - $scope.Timer[i].InitTime;
             if (diff < $scope.Timer[i].Seconds) {
                 var secondToStr =$scope.Timer[i].Seconds - diff;
-                $scope.Timer[i].RemainingTime = secondToStr.RemainingTime;
+                $scope.Timer[i].RemainingTime = secondToStr;
             }else {
                 $scope.Timer[i].RemainingTime = '00:00:00';
             }
